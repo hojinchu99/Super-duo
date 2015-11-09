@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/widget_list_item"
+    android:padding="@dimen/widget_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/list_item">
+
+        <LinearLayout
+            android:id="@+id/widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/widget_home_team"
+                android:layout_weight="1"
+                android:text="Date - Time"
+                android:textStyle="bold"
+                android:textSize="@dimen/TeamNames"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:id="@+id/widget_score"
+                android:text="Time"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/Score"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/widget_away_team"
+                android:text="League"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/League"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center|right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/widget_date"
+                android:layout_weight="1"
+                android:text="Home Team"
+                android:textSize="@dimen/TeamNames"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/widget_time"
+                android:text=" 2 : 2 "
+                android:textSize="@dimen/Score"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/widget_league"
+                android:text="Away Team"
+                android:textSize="@dimen/League"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
